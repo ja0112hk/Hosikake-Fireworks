@@ -12,16 +12,17 @@
 
 html {
 	text-size-adjust: 100%;
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
-  font-size: 10px;
-  color: $black;
+  background-image: url(./../img/bg.png);
+  color: $white;
+  font-family: $font-hiragino;
 }
 
 a {
-  color: $black;
+  color: $white;
 }
 
 img {
