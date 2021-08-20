@@ -1,0 +1,45 @@
+.c-fireworks_left {
+    position: absolute;
+    &.first {
+        left: 12%;
+    }
+    &.second {
+        top: 12%;
+        left: -5%;
+    }
+    &.third {
+        top: 30%;
+        left: 8%;
+    }
+    &.forth {
+        top: 65%;
+        left: -2%;
+    }
+    &.fifth {
+        bottom: 0;
+        left: 20%;
+    }
+}
+.c-fireworks_right {
+    position: absolute;
+    right: 0;
+    &.first {
+        right: 5%;
+    }
+    &.second {
+        top: 12%;
+        right: -7%;
+    }
+    &.third {
+        top: 30%;
+        right: 15%;
+    }
+    &.forth {
+        top: 65%;
+        right: 1%;
+    }
+    &.fifth {
+        bottom: 0;
+        right: 20%;
+    }
+}

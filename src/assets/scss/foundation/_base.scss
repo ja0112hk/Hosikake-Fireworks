@@ -19,6 +19,7 @@ body {
   background-image: url(./../img/bg.png);
   color: $white;
   font-family: $font-hiragino;
+  font-weight: 300;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
 }
 
 img {
-  display: block;
-  width: 100%;
-  height: auto;
+  // display: block;
+  // width: 100%;
+  // height: auto;
 }

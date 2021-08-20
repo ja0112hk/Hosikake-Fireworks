@@ -1,0 +1,37 @@
+.l-point {
+    &_container {
+        position: relative;
+    }
+    &_imgArea {
+        width: 100%;
+        img {
+            width: 70%;
+        }
+        &.right {
+            text-align: right;
+        }
+    }
+    &_textArea {
+        position: absolute;
+        top: 20%;
+        right: 15%;
+        &.right {
+            top: 70%;
+            left: 15%;
+                
+        }
+        &__title {
+            font-size: 2.4rem;
+            font-weight: 600;
+            // border-bottom: 3px solid $red;
+            // display: inline-block;
+        }
+        &__text {
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 2.5;
+            border-top: 3px solid $red;
+            display: inline-block;
+        }
+    }
+}
