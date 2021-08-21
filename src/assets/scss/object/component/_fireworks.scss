@@ -1,0 +1,47 @@
+.c-fireworks_left {
+    position: absolute;
+    z-index: -1;
+    &.first {
+        left: 12%;
+    }
+    &.second {
+        top: 15%;
+        left: -5%;
+    }
+    &.third {
+        top: 43%;
+        left: 8%;
+    }
+    &.forth {
+        top: 54%;
+        left: -2%;
+    }
+    &.fifth {
+        top: 67%;
+        left: 15%;
+    }
+}
+.c-fireworks_right {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    &.first {
+        right: 5%;
+    }
+    &.second {
+        top: 12%;
+        right: -7%;
+    }
+    &.third {
+        top: 20%;
+        right: 11%;
+    }
+    &.forth {
+        top: 43%;
+        right: 0;
+    }
+    &.fifth {
+        top: 68%;
+        right: 14%;
+    }
+}

@@ -1,0 +1,48 @@
+.l-fv {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    &_logo {
+        text-align: center;
+    }
+    &_textArea {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        
+        &__title {
+            font-size: 6.4rem;
+            font-weight: bold;
+            letter-spacing: .5em;
+            font-family: $font-hind;
+        }
+        &__subtitle {
+            font-size: 2.4rem;
+            letter-spacing: .5em;
+            font-weight: normal;
+            font-family: $font-hind;
+            @include sp {
+                font-size: 3rem;
+            }
+        }
+        &__date {
+            font-size: 2.4rem;
+            font-weight: 300;
+            @include sp {
+                font-size: 2.8rem;
+            }
+        }
+        &__attention {
+            font-size: 1.6rem;
+            font-weight: 300;
+            @include sp {
+                font-size: 2rem;
+            }
+        }
+    }
+
+}
+.lh-2 {
+    line-height: 2;
+}

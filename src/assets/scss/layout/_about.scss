@@ -1,0 +1,41 @@
+.l-about {
+    text-align: center;
+    position: relative;
+    &_inner {
+        border: 1px solid $white;
+        padding: 8.5rem 0 10.5rem;
+        margin: 0 auto;
+        max-width: 900px;
+        width: 90%;
+        position: relative;
+        &::before {
+            content: '';        
+            border: 1px solid $white;   
+            position: absolute;      
+            top: 13px;
+            bottom: 13px;
+            left: -13px;
+            right: -13px;
+        }
+        &__text {
+            font-size: 1.8rem;
+            font-weight: 100;
+            line-height: 2.77;
+            text-align: center;
+            @include sp {
+                font-size: 2.2rem;
+                padding: 0 4vw;
+            }
+        }
+    }
+    &_fireworks {
+        &__left {
+            top: 23%;
+            left: 6%;
+        }
+        &__right {
+            bottom: 7%;
+            right: 10%!important;
+        }
+    }
+}
