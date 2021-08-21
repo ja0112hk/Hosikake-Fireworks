@@ -10,30 +10,32 @@
         position: relative;
         &::before {
             content: '';        
-            // width: calc(100% + 4px); 
-            // height: calc(100% + 4px);   
             border: 1px solid $white;   
             position: absolute;      
-            width: 97%;
-            height: 104%; 
-            left: 1.5%;    
-            top: -2%;
+            top: 13px;
+            bottom: 13px;
+            left: -13px;
+            right: -13px;
         }
         &__text {
             font-size: 1.8rem;
             font-weight: 100;
             line-height: 2.77;
             text-align: center;
+            @include sp {
+                font-size: 2.2rem;
+                padding: 0 4vw;
+            }
         }
     }
     &_fireworks {
         &__left {
-            top: 12%;
-            left: 16%;
+            top: 23%;
+            left: 6%;
         }
         &__right {
             bottom: 7%;
-            right: 18%!important;
+            right: 10%!important;
         }
     }
 }

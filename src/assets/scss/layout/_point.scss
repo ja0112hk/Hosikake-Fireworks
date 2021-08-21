@@ -1,11 +1,24 @@
 .l-point {
+    background-image: url(./../img/bg.png);
+    overflow: hidden;
     &_container {
         position: relative;
+        @include sp {
+            display: flex;
+            flex-direction: column-reverse;
+        }
     }
     &_imgArea {
         width: 100%;
+        @include sp {
+            padding: 0 4vw;
+            margin-bottom: 3.5rem;
+        }
         img {
             width: 70%;
+            @include sp {
+                width: 100%;
+            }
         }
         &.right {
             text-align: right;
@@ -15,6 +28,12 @@
         position: absolute;
         top: 20%;
         right: 15%;
+        @include sp {
+            position: static;
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+        }
         &.right {
             top: 70%;
             left: 15%;
@@ -23,8 +42,9 @@
         &__title {
             font-size: 2.4rem;
             font-weight: 600;
-            // border-bottom: 3px solid $red;
-            // display: inline-block;
+            @include sp {
+                text-align-last: left;
+            }
         }
         &__text {
             font-size: 1.6rem;
@@ -32,6 +52,13 @@
             line-height: 2.5;
             border-top: 3px solid $red;
             display: inline-block;
+            @include sp {
+                display: block;
+                text-align-last: left;
+                font-size: 2.2rem;
+                line-height: normal;
+                padding-top: 2rem;
+            }
         }
     }
 }

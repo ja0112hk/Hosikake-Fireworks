@@ -1,0 +1,12 @@
+.footer_textArea {
+    text-align: center;
+    height: 126px;
+    background: $gray;
+    &__text {
+        line-height: 126px;
+        font-size: 1.6rem;
+        @include sp {
+            font-size: 2rem;
+        }
+    }
+}
