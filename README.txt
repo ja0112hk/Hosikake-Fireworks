@@ -1,5 +1,5 @@
 Web制作時
-npm run watch:all
+    npm run watch:all
 ▲EJSをHTMLに変換、SASSをCSS(Autoprefix追加)、JavaScriptをコピー、画像を圧縮、Browser-Syncを起動
 
 コード整形時

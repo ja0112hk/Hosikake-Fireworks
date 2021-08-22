@@ -5,6 +5,9 @@
     z-index: 1;
     &_logo {
         text-align: center;
+        img {
+            width: 100px;
+        }
     }
     &_textArea {
         text-align: center;

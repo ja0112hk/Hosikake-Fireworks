@@ -8,6 +8,9 @@
         border: 1px solid $white;
         position: relative;
         z-index: 1;
+        @include sp {
+            width: 70%;
+        }
         &::before {
             content: "";
             position: absolute;
