@@ -8,6 +8,9 @@
         img {
             width: 100px;
         }
+        @include sp {
+            padding-top: 5rem!important;
+        }
     }
     &_textArea {
         text-align: center;
