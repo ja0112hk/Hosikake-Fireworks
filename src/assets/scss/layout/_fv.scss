@@ -7,9 +7,12 @@
         text-align: center;
         img {
             width: 100px;
+            @include sp {
+                width: 80px;
+            }
         }
         @include sp {
-            padding-top: 12rem!important;
+            padding-top: 10rem!important;
         }
     }
     &_textArea {

@@ -30,7 +30,7 @@
                 text-align: left;
                 border-top: 1px solid $white;
                 padding: 2.4rem 4.5rem  2.4rem 0; 
-                
+                line-height: 1.72; 
                 @include sp {
                     font-size: 2rem;   
                     text-align: center;
@@ -46,23 +46,14 @@
         &__leftTop {
             top: 10%;
             left: -3%;
-            // @include sp {
-            //     opacity: .35;
-            // }
         }
         &__leftBottom {
             left: 11%;
             top: 76%;
-            // @include sp {
-            //     opacity: .35;
-            // }
         }
         &__right {
             top:40%;
             right: -3%!important;
-            // @include sp {
-            //     opacity: .35;
-            // }
         }
     }
 }
