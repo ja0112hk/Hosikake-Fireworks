@@ -32,6 +32,9 @@
         &__left {
             top: 23%;
             left: 6%;
+            @include sp {
+                left: -30%;
+            }
         }
         &__right {
             bottom: 7%;
