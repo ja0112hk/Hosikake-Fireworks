@@ -1,10 +1,20 @@
 .l-fv {
+    background-image: url(./../img/bg_01.png);
     position: relative;
     height: 100vh;
     overflow: hidden;
     z-index: 1;
     &_logo {
         text-align: center;
+        img {
+            width: 100px;
+            @include sp {
+                width: 80px;
+            }
+        }
+        @include sp {
+            padding-top: 10rem!important;
+        }
     }
     &_textArea {
         text-align: center;
@@ -16,6 +26,9 @@
             font-weight: bold;
             letter-spacing: .5em;
             font-family: $font-hind;
+            @include sp {
+                font-size: 3.6rem;
+            }
         }
         &__subtitle {
             font-size: 2.4rem;
@@ -30,7 +43,7 @@
             font-size: 2.4rem;
             font-weight: 300;
             @include sp {
-                font-size: 2.8rem;
+                font-size: 2.6rem;
             }
         }
         &__attention {

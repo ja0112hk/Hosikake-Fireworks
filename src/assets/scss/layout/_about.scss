@@ -1,6 +1,8 @@
 .l-about {
+    background-image: url(./../img/bg_02.png);
     text-align: center;
     position: relative;
+    z-index: -2;
     &_inner {
         border: 1px solid $white;
         padding: 8.5rem 0 10.5rem;
@@ -32,6 +34,9 @@
         &__left {
             top: 23%;
             left: 6%;
+            @include sp {
+                left: -30%;
+            }
         }
         &__right {
             bottom: 7%;

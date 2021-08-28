@@ -3,6 +3,7 @@
     z-index: -1;
     &.first {
         left: 12%;
+        
     }
     &.second {
         top: 15%;
@@ -11,6 +12,10 @@
     &.third {
         top: 43%;
         left: 8%;
+        @include sp {
+            top: 32%;
+            left: -8%;
+        }
     }
     &.forth {
         top: 54%;
@@ -19,6 +24,12 @@
     &.fifth {
         top: 67%;
         left: 15%;
+    }
+    img {
+        @include sp {
+            width: 40%;
+            height: 40%;
+        }
     }
 }
 .c-fireworks_right {
@@ -35,6 +46,9 @@
     &.third {
         top: 20%;
         right: 11%;
+        @include sp {
+            top: 30%;
+        }
     }
     &.forth {
         top: 43%;
@@ -43,5 +57,17 @@
     &.fifth {
         top: 68%;
         right: 14%;
+        @include sp {
+            right: 0;
+        }
+    }
+    @include sp {
+        text-align: right;
+    }
+    img {
+        @include sp {
+            width: 40%;
+            height: 40%;
+        }
     }
 }
